@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_PATH, () => {
 
 
 const PORT = process.env.SERVER_PORT || 9000
-const origin = process.env.CORS_ORIGIN || 'http://localhost:3000'
+const origin = process.env.CORS_ORIGIN || 'https://projectmanagementsite.netlify.app'
 
 const app = express()
 
